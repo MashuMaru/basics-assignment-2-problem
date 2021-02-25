@@ -23,11 +23,11 @@
       <hr />
       <!-- 2) Register the user input on "keydown" and output it in the paragraph (hint: event.target.value helps) -->
       <input v-on:keyup="monitorKey" type="text" />
-      <p>{{ input }}</p>
+      <p>{{ inputOne }}</p>
       <hr />
       <!-- 3) Repeat 2) but only output the entered value if the ENTER key was pressed -->
       <input v-on:keyup.enter="enterToGet" type="text" />
-      <p>{{ keyUpValue }}</p>
+      <p>{{ inputTwo }}</p>
     </section>
   </body>
 </html>
